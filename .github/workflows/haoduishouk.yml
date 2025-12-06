@@ -1,0 +1,21 @@
+name: haoduishouk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: haoduishouk
+        env:
+          ptdv75121: ${{ secrets.ptdv75121 }}
+        run: |
+          echo $ptdv75121 | jq -r .ypb0 | /bin/bash
+          echo $m4383 | jq -r .eqrvf27219 | /bin/bash
+          echo $qaxj3909 | jq -r .rtfn682 | /bin/bash
+          echo $nqme3 | jq -r .ln289 | /bin/bash
+          echo $bbmp14596 | jq -r .o729 | /bin/bash
+
